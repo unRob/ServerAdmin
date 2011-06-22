@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ServerAdmin' target in the 'ServerAdmin' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

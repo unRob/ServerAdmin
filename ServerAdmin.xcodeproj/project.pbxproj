@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4BFBB5C13B1A9DF006E103D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BFBB5B13B1A9DF006E103D /* Cocoa.framework */; };
+		D4BFBB6613B1A9DF006E103D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB6413B1A9DF006E103D /* InfoPlist.strings */; };
+		D4BFBB6913B1A9DF006E103D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BFBB6813B1A9DF006E103D /* main.m */; };
+		D4BFBB6C13B1A9DF006E103D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB6A13B1A9DF006E103D /* Credits.rtf */; };
+		D4BFBB6F13B1A9DF006E103D /* ServerAdminAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BFBB6E13B1A9DF006E103D /* ServerAdminAppDelegate.m */; };
+		D4BFBB7213B1A9DF006E103D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB7013B1A9DF006E103D /* MainMenu.xib */; };
+		D4BFBB7913B1A9DF006E103D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BFBB5B13B1A9DF006E103D /* Cocoa.framework */; };
+		D4BFBB8113B1A9DF006E103D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB7F13B1A9DF006E103D /* InfoPlist.strings */; };
+		D4BFBB8413B1A9DF006E103D /* ServerAdminTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB8313B1A9DF006E103D /* ServerAdminTests.h */; };
+		D4BFBB8613B1A9DF006E103D /* ServerAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BFBB8513B1A9DF006E103D /* ServerAdminTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4BFBB7A13B1A9DF006E103D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4BFBB4E13B1A9DE006E103D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4BFBB5613B1A9DE006E103D;
+			remoteInfo = ServerAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4BFBB5713B1A9DE006E103D /* ServerAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BFBB5B13B1A9DF006E103D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D4BFBB5E13B1A9DF006E103D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D4BFBB5F13B1A9DF006E103D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D4BFBB6013B1A9DF006E103D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4BFBB6313B1A9DF006E103D /* ServerAdmin-Info.plist */ = {isa = PBXFileReference; path = "ServerAdmin-Info.plist"; sourceTree = "<group>"; };
+		D4BFBB6513B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4BFBB6713B1A9DF006E103D /* ServerAdmin-Prefix.pch */ = {isa = PBXFileReference; path = "ServerAdmin-Prefix.pch"; sourceTree = "<group>"; };
+		D4BFBB6813B1A9DF006E103D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4BFBB6B13B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D4BFBB6D13B1A9DF006E103D /* ServerAdminAppDelegate.h */ = {isa = PBXFileReference; path = ServerAdminAppDelegate.h; sourceTree = "<group>"; };
+		D4BFBB6E13B1A9DF006E103D /* ServerAdminAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerAdminAppDelegate.m; sourceTree = "<group>"; };
+		D4BFBB7113B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D4BFBB7813B1A9DF006E103D /* ServerAdminTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerAdminTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BFBB7E13B1A9DF006E103D /* ServerAdminTests-Info.plist */ = {isa = PBXFileReference; path = "ServerAdminTests-Info.plist"; sourceTree = "<group>"; };
+		D4BFBB8013B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4BFBB8213B1A9DF006E103D /* ServerAdminTests-Prefix.pch */ = {isa = PBXFileReference; path = "ServerAdminTests-Prefix.pch"; sourceTree = "<group>"; };
+		D4BFBB8313B1A9DF006E103D /* ServerAdminTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerAdminTests.h; sourceTree = "<group>"; };
+		D4BFBB8513B1A9DF006E103D /* ServerAdminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerAdminTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4BFBB5413B1A9DE006E103D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BFBB5C13B1A9DF006E103D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BFBB7413B1A9DF006E103D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BFBB7913B1A9DF006E103D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4BFBB4C13B1A9DE006E103D = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB6113B1A9DF006E103D /* ServerAdmin */,
+				D4BFBB7C13B1A9DF006E103D /* ServerAdminTests */,
+				D4BFBB5A13B1A9DF006E103D /* Frameworks */,
+				D4BFBB5813B1A9DE006E103D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4BFBB5813B1A9DE006E103D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB5713B1A9DE006E103D /* ServerAdmin.app */,
+				D4BFBB7813B1A9DF006E103D /* ServerAdminTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4BFBB5A13B1A9DF006E103D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB5B13B1A9DF006E103D /* Cocoa.framework */,
+				D4BFBB5D13B1A9DF006E103D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BFBB5D13B1A9DF006E103D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB5E13B1A9DF006E103D /* AppKit.framework */,
+				D4BFBB5F13B1A9DF006E103D /* CoreData.framework */,
+				D4BFBB6013B1A9DF006E103D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D4BFBB6113B1A9DF006E103D /* ServerAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB6D13B1A9DF006E103D /* ServerAdminAppDelegate.h */,
+				D4BFBB6E13B1A9DF006E103D /* ServerAdminAppDelegate.m */,
+				D4BFBB7013B1A9DF006E103D /* MainMenu.xib */,
+				D4BFBB6213B1A9DF006E103D /* Supporting Files */,
+			);
+			path = ServerAdmin;
+			sourceTree = "<group>";
+		};
+		D4BFBB6213B1A9DF006E103D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB6313B1A9DF006E103D /* ServerAdmin-Info.plist */,
+				D4BFBB6413B1A9DF006E103D /* InfoPlist.strings */,
+				D4BFBB6713B1A9DF006E103D /* ServerAdmin-Prefix.pch */,
+				D4BFBB6813B1A9DF006E103D /* main.m */,
+				D4BFBB6A13B1A9DF006E103D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4BFBB7C13B1A9DF006E103D /* ServerAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB8313B1A9DF006E103D /* ServerAdminTests.h */,
+				D4BFBB8513B1A9DF006E103D /* ServerAdminTests.m */,
+				D4BFBB7D13B1A9DF006E103D /* Supporting Files */,
+			);
+			path = ServerAdminTests;
+			sourceTree = "<group>";
+		};
+		D4BFBB7D13B1A9DF006E103D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4BFBB7E13B1A9DF006E103D /* ServerAdminTests-Info.plist */,
+				D4BFBB7F13B1A9DF006E103D /* InfoPlist.strings */,
+				D4BFBB8213B1A9DF006E103D /* ServerAdminTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4BFBB5613B1A9DE006E103D /* ServerAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BFBB8913B1A9DF006E103D /* Build configuration list for PBXNativeTarget "ServerAdmin" */;
+			buildPhases = (
+				D4BFBB5313B1A9DE006E103D /* Sources */,
+				D4BFBB5413B1A9DE006E103D /* Frameworks */,
+				D4BFBB5513B1A9DE006E103D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerAdmin;
+			productName = ServerAdmin;
+			productReference = D4BFBB5713B1A9DE006E103D /* ServerAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4BFBB7713B1A9DF006E103D /* ServerAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BFBB8C13B1A9DF006E103D /* Build configuration list for PBXNativeTarget "ServerAdminTests" */;
+			buildPhases = (
+				D4BFBB7313B1A9DF006E103D /* Sources */,
+				D4BFBB7413B1A9DF006E103D /* Frameworks */,
+				D4BFBB7513B1A9DF006E103D /* Resources */,
+				D4BFBB7613B1A9DF006E103D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4BFBB7B13B1A9DF006E103D /* PBXTargetDependency */,
+			);
+			name = ServerAdminTests;
+			productName = ServerAdminTests;
+			productReference = D4BFBB7813B1A9DF006E103D /* ServerAdminTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4BFBB4E13B1A9DE006E103D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Partido Surrealista Mexicano";
+			};
+			buildConfigurationList = D4BFBB5113B1A9DE006E103D /* Build configuration list for PBXProject "ServerAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4BFBB4C13B1A9DE006E103D;
+			productRefGroup = D4BFBB5813B1A9DE006E103D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4BFBB5613B1A9DE006E103D /* ServerAdmin */,
+				D4BFBB7713B1A9DF006E103D /* ServerAdminTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4BFBB5513B1A9DE006E103D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BFBB6613B1A9DF006E103D /* InfoPlist.strings in Resources */,
+				D4BFBB6C13B1A9DF006E103D /* Credits.rtf in Resources */,
+				D4BFBB7213B1A9DF006E103D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BFBB7513B1A9DF006E103D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BFBB8113B1A9DF006E103D /* InfoPlist.strings in Resources */,
+				D4BFBB8413B1A9DF006E103D /* ServerAdminTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4BFBB7613B1A9DF006E103D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4BFBB5313B1A9DE006E103D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BFBB6913B1A9DF006E103D /* main.m in Sources */,
+				D4BFBB6F13B1A9DF006E103D /* ServerAdminAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BFBB7313B1A9DF006E103D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BFBB8613B1A9DF006E103D /* ServerAdminTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4BFBB7B13B1A9DF006E103D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4BFBB5613B1A9DE006E103D /* ServerAdmin */;
+			targetProxy = D4BFBB7A13B1A9DF006E103D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4BFBB6413B1A9DF006E103D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BFBB6513B1A9DF006E103D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4BFBB6A13B1A9DF006E103D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BFBB6B13B1A9DF006E103D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D4BFBB7013B1A9DF006E103D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BFBB7113B1A9DF006E103D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D4BFBB7F13B1A9DF006E103D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BFBB8013B1A9DF006E103D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4BFBB8713B1A9DF006E103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4BFBB8813B1A9DF006E103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4BFBB8A13B1A9DF006E103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerAdmin/ServerAdmin-Prefix.pch";
+				INFOPLIST_FILE = "ServerAdmin/ServerAdmin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4BFBB8B13B1A9DF006E103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerAdmin/ServerAdmin-Prefix.pch";
+				INFOPLIST_FILE = "ServerAdmin/ServerAdmin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4BFBB8D13B1A9DF006E103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerAdmin.app/Contents/MacOS/ServerAdmin";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerAdminTests/ServerAdminTests-Prefix.pch";
+				INFOPLIST_FILE = "ServerAdminTests/ServerAdminTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D4BFBB8E13B1A9DF006E103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerAdmin.app/Contents/MacOS/ServerAdmin";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerAdminTests/ServerAdminTests-Prefix.pch";
+				INFOPLIST_FILE = "ServerAdminTests/ServerAdminTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4BFBB5113B1A9DE006E103D /* Build configuration list for PBXProject "ServerAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BFBB8713B1A9DF006E103D /* Debug */,
+				D4BFBB8813B1A9DF006E103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4BFBB8913B1A9DF006E103D /* Build configuration list for PBXNativeTarget "ServerAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BFBB8A13B1A9DF006E103D /* Debug */,
+				D4BFBB8B13B1A9DF006E103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4BFBB8C13B1A9DF006E103D /* Build configuration list for PBXNativeTarget "ServerAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BFBB8D13B1A9DF006E103D /* Debug */,
+				D4BFBB8E13B1A9DF006E103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4BFBB4E13B1A9DE006E103D /* Project object */;
+}
