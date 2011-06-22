@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D479513E13B265F9007DBE05 /* mysql.sh in Resources */ = {isa = PBXBuildFile; fileRef = D479513D13B265F9007DBE05 /* mysql.sh */; };
+		D479514213B26D9B007DBE05 /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D479514013B26D9B007DBE05 /* task.cpp */; };
 		D4BFBB5C13B1A9DF006E103D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BFBB5B13B1A9DF006E103D /* Cocoa.framework */; };
 		D4BFBB6613B1A9DF006E103D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB6413B1A9DF006E103D /* InfoPlist.strings */; };
 		D4BFBB6913B1A9DF006E103D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BFBB6813B1A9DF006E103D /* main.m */; };
@@ -17,6 +19,10 @@
 		D4BFBB8113B1A9DF006E103D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB7F13B1A9DF006E103D /* InfoPlist.strings */; };
 		D4BFBB8413B1A9DF006E103D /* ServerAdminTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBB8313B1A9DF006E103D /* ServerAdminTests.h */; };
 		D4BFBB8613B1A9DF006E103D /* ServerAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BFBB8513B1A9DF006E103D /* ServerAdminTests.m */; };
+		D4BFBBB113B1B0E0006E103D /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BFBBB013B1B0E0006E103D /* SecurityInterface.framework */; };
+		D4BFBBB313B1B3C1006E103D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BFBBB213B1B3C1006E103D /* Security.framework */; };
+		D4BFBBBB13B1D3B1006E103D /* task in Resources */ = {isa = PBXBuildFile; fileRef = D4BFBBBA13B1D3B1006E103D /* task */; };
+		D4BFBBBD13B1DB3C006E103D /* taskero.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BFBBBC13B1DB3C006E103D /* taskero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +36,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D479513D13B265F9007DBE05 /* mysql.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mysql.sh; sourceTree = "<group>"; };
+		D479514013B26D9B007DBE05 /* task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = task.cpp; sourceTree = "<group>"; };
 		D4BFBB5713B1A9DE006E103D /* ServerAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BFBB5B13B1A9DF006E103D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D4BFBB5E13B1A9DF006E103D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D4BFBB5F13B1A9DF006E103D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D4BFBB6013B1A9DF006E103D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D4BFBB6313B1A9DF006E103D /* ServerAdmin-Info.plist */ = {isa = PBXFileReference; path = "ServerAdmin-Info.plist"; sourceTree = "<group>"; };
+		D4BFBB6313B1A9DF006E103D /* ServerAdmin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerAdmin-Info.plist"; sourceTree = "<group>"; };
 		D4BFBB6513B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D4BFBB6713B1A9DF006E103D /* ServerAdmin-Prefix.pch */ = {isa = PBXFileReference; path = "ServerAdmin-Prefix.pch"; sourceTree = "<group>"; };
+		D4BFBB6713B1A9DF006E103D /* ServerAdmin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerAdmin-Prefix.pch"; sourceTree = "<group>"; };
 		D4BFBB6813B1A9DF006E103D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4BFBB6B13B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D4BFBB6D13B1A9DF006E103D /* ServerAdminAppDelegate.h */ = {isa = PBXFileReference; path = ServerAdminAppDelegate.h; sourceTree = "<group>"; };
+		D4BFBB6D13B1A9DF006E103D /* ServerAdminAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerAdminAppDelegate.h; sourceTree = "<group>"; };
 		D4BFBB6E13B1A9DF006E103D /* ServerAdminAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerAdminAppDelegate.m; sourceTree = "<group>"; };
 		D4BFBB7113B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D4BFBB7813B1A9DF006E103D /* ServerAdminTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerAdminTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4BFBB7E13B1A9DF006E103D /* ServerAdminTests-Info.plist */ = {isa = PBXFileReference; path = "ServerAdminTests-Info.plist"; sourceTree = "<group>"; };
+		D4BFBB7E13B1A9DF006E103D /* ServerAdminTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerAdminTests-Info.plist"; sourceTree = "<group>"; };
 		D4BFBB8013B1A9DF006E103D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D4BFBB8213B1A9DF006E103D /* ServerAdminTests-Prefix.pch */ = {isa = PBXFileReference; path = "ServerAdminTests-Prefix.pch"; sourceTree = "<group>"; };
+		D4BFBB8213B1A9DF006E103D /* ServerAdminTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerAdminTests-Prefix.pch"; sourceTree = "<group>"; };
 		D4BFBB8313B1A9DF006E103D /* ServerAdminTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerAdminTests.h; sourceTree = "<group>"; };
 		D4BFBB8513B1A9DF006E103D /* ServerAdminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerAdminTests.m; sourceTree = "<group>"; };
+		D4BFBBB013B1B0E0006E103D /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		D4BFBBB213B1B3C1006E103D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D4BFBBBA13B1D3B1006E103D /* task */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = task; sourceTree = "<group>"; };
+		D4BFBBBC13B1DB3C006E103D /* taskero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = taskero.m; path = ../ServerAdmin/taskero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BFBBB313B1B3C1006E103D /* Security.framework in Frameworks */,
+				D4BFBBB113B1B0E0006E103D /* SecurityInterface.framework in Frameworks */,
 				D4BFBB5C13B1A9DF006E103D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +88,8 @@
 		D4BFBB4C13B1A9DE006E103D = {
 			isa = PBXGroup;
 			children = (
+				D4BFBBB213B1B3C1006E103D /* Security.framework */,
+				D4BFBBB013B1B0E0006E103D /* SecurityInterface.framework */,
 				D4BFBB6113B1A9DF006E103D /* ServerAdmin */,
 				D4BFBB7C13B1A9DF006E103D /* ServerAdminTests */,
 				D4BFBB5A13B1A9DF006E103D /* Frameworks */,
@@ -114,8 +130,11 @@
 			children = (
 				D4BFBB6D13B1A9DF006E103D /* ServerAdminAppDelegate.h */,
 				D4BFBB6E13B1A9DF006E103D /* ServerAdminAppDelegate.m */,
+				D4BFBBBA13B1D3B1006E103D /* task */,
 				D4BFBB7013B1A9DF006E103D /* MainMenu.xib */,
 				D4BFBB6213B1A9DF006E103D /* Supporting Files */,
+				D479513D13B265F9007DBE05 /* mysql.sh */,
+				D479514013B26D9B007DBE05 /* task.cpp */,
 			);
 			path = ServerAdmin;
 			sourceTree = "<group>";
@@ -135,6 +154,7 @@
 		D4BFBB7C13B1A9DF006E103D /* ServerAdminTests */ = {
 			isa = PBXGroup;
 			children = (
+				D4BFBBBC13B1DB3C006E103D /* taskero.m */,
 				D4BFBB8313B1A9DF006E103D /* ServerAdminTests.h */,
 				D4BFBB8513B1A9DF006E103D /* ServerAdminTests.m */,
 				D4BFBB7D13B1A9DF006E103D /* Supporting Files */,
@@ -225,6 +245,8 @@
 				D4BFBB6613B1A9DF006E103D /* InfoPlist.strings in Resources */,
 				D4BFBB6C13B1A9DF006E103D /* Credits.rtf in Resources */,
 				D4BFBB7213B1A9DF006E103D /* MainMenu.xib in Resources */,
+				D4BFBBBB13B1D3B1006E103D /* task in Resources */,
+				D479513E13B265F9007DBE05 /* mysql.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +284,8 @@
 			files = (
 				D4BFBB6913B1A9DF006E103D /* main.m in Sources */,
 				D4BFBB6F13B1A9DF006E103D /* ServerAdminAppDelegate.m in Sources */,
+				D4BFBBBD13B1DB3C006E103D /* taskero.m in Sources */,
+				D479514213B26D9B007DBE05 /* task.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +468,7 @@
 				D4BFBB8B13B1A9DF006E103D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4BFBB8C13B1A9DF006E103D /* Build configuration list for PBXNativeTarget "ServerAdminTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +477,7 @@
 				D4BFBB8E13B1A9DF006E103D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
